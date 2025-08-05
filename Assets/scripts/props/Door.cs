@@ -12,9 +12,10 @@ public class Door : MonoBehaviour
 
     public Transform door;
 
-    public float speed, delay;
+    public float speed, delay, SoundOpenTemp, SoundCloseTemp;
 
     public bool opened;
+
     void Start()
     {
         original = transform.position;
@@ -26,8 +27,14 @@ public class Door : MonoBehaviour
         {
             door.position = Vector2.MoveTowards(door.position, target.position, speed);
         }
-        else {
+        else 
+        {
             door.position = Vector2.MoveTowards(door.position, original, speed);
+        }
+
+        if(SoundOpenTemp == 1 /*|| SoundCloseTemp == 1*/)
+        {
+            SoundManager.PlaySound(SoundType.door);
         }
     }
 
@@ -39,22 +46,17 @@ public class Door : MonoBehaviour
 
     public void open()
     {
-        if (opened!)
-        {
-            SoundManager.PlaySound(SoundType.door);
-            opened = true;
-        }      
+        //SoundCloseTemp = 0;
+        SoundOpenTemp++;
+        opened = true;
     }
 
     public void close()
     {
-        if(opened)
-        {
-            SoundManager.PlaySound(SoundType.door);
-            opened = false;
-        }     
-    }
-
+        SoundOpenTemp = 0;
+        //SoundCloseTemp++;
+        opened = false;
+    }      
     public IEnumerator openClose()
     {
         open();
