@@ -51,6 +51,12 @@ public class Door : MonoBehaviour
         opened = true;
     }
 
+    public void OpenWithsound()
+    {
+        SoundManager.PlaySound(SoundType.door);
+        opened = true;
+    }
+
     public void close()
     {
         SoundOpenTemp = 0;
