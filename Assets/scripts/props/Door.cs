@@ -39,13 +39,20 @@ public class Door : MonoBehaviour
 
     public void open()
     {
-        SoundManager.PlaySound(SoundType.door);
-        opened = true;
+        if (opened!)
+        {
+            SoundManager.PlaySound(SoundType.door);
+            opened = true;
+        }      
     }
 
     public void close()
     {
-        opened = false;
+        if(opened)
+        {
+            SoundManager.PlaySound(SoundType.door);
+            opened = false;
+        }     
     }
 
     public IEnumerator openClose()
