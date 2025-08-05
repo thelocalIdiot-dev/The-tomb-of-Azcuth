@@ -165,8 +165,8 @@ MonoBehaviour:
   - {x: 0.07330322, y: -2, z: 0}
   - {x: 0, y: -8.26514, z: 0}
   m_ShapePathHash: -2124089899
-  m_Mesh: {fileID: 181605626}
-  m_InstanceId: 28922
+  m_Mesh: {fileID: 1265328364}
+  m_InstanceId: 48230
   m_LocalBounds:
     m_Center: {x: -14.080986, y: -5.2209496, z: 0}
     m_Extent: {x: 14.154289, y: 3.2209496, z: 0}
@@ -196,10 +196,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -268,10 +264,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -345,10 +337,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (51)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 110.32025
@@ -421,10 +409,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (59)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 148.97025
@@ -487,10 +471,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (45)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.500504
@@ -541,171 +521,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
   m_PrefabInstance: {fileID: 907180307}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &181605626
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!114 &186325380 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6167008719439540154, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+  m_PrefabInstance: {fileID: 1516405564}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214403f0d7812694c9a21d5b657cd7d8, type: 3}
   m_Name: 
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 42
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: -14.080986, y: -5.2209496, z: 0}
-      m_Extent: {x: 14.154289, y: 3.2209496, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 00000100020000000300010004000300000005000300040006000300050003000600070002000800000000000900040001000a00020003000b00010007000c00030004000d00050005000e00060006000f000700
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 704
-    _typelessdata: 00000000033e04c10000000084fb7f3fbbae3fbc000000800000008000000000033e04c100000000033e04c10020963d000000c000000000000000800000803f00000080000000800020963d000000c00020963d000000c00020163d033ea4c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c000000000033e04c1b84b61c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c00020963d000000c0d8e161c104a805c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c1d8e1e1c1051207c1d8e1e1c1051207c100000000b521cd3bb7fe7fbf0000008000000080d8e1e1c1051207c1d8e1e1c1051207c1d8e1e1c10512a7c000000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1000000c0d8e1e1c1000000c000000000000080bf000000800000008000000080d8e1e1c1000000c0d8e1e1c1000000c00020163d033ea4c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c000000000033e04c100000000033e04c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c100000000033e04c10020963d000000c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c00020963d000000c0b84b61c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c00020963d000000c0d8e1e1c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c0d8e1e1c1000000c0d8e161c104a805c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c1d8e1e1c1051207c1d8e1e1c1051207c100000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1051207c1d8e1e1c10512a7c000000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1000000c0
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -14.080986, y: -5.2209496, z: 0}
-    m_Extent: {x: 14.154289, y: 3.2209496, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_EditorClassIdentifier: 
 --- !u!4 &189314493 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
@@ -1054,10 +880,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.54
@@ -1114,10 +936,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1310,10 +1128,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.4395
@@ -1389,7 +1203,7 @@ Transform:
   m_GameObject: {fileID: 339402659}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.67, y: -2.84, z: 0}
+  m_LocalPosition: {x: -44, y: -2.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1492,10 +1306,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (68)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 120.7105
@@ -1562,10 +1372,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1795,10 +1601,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (71)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 141.61026
@@ -1855,10 +1657,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (69)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1951,10 +1749,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.65
@@ -2011,10 +1805,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2343,10 +2133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.75
@@ -2392,6 +2178,171 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
+--- !u!43 &537654113
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: -13.902748, y: -4.36661, z: 0}
+      m_Extent: {x: 14.546394, y: 3.6333902, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020000000300010004000300000005000300040006000300050003000600070002000800000000000900040001000a00020003000b00010007000c00030004000d00050005000e00060006000f000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 704
+    _typelessdata: 00000000000000c1000000006d007f3f14b1b4bd000000800000008000000000000000c100000000000000c100c6243f4bb43bbf00000000981547bbb3ff7f3f000000800000008000c6243f4bb43bbf00c6243f4bb43bbf00c6a43e45bb8bc0000000006d007f3f13b1b4bd000000800000008000c6243f4bb43bbf00000000000000c1a8715ec1440447bf00000000861547bbb3ff7f3f0000008000000080d897e3c13c5452bf00c6243f4bb43bbfd8e161c1000000c10000000000000080000080bf000000000000008000000000000000c1d8e1e1c1000000c1d8e1e1c1000000c10000000000000080000080bf0000000000000080d8e1e1c1000000c1d8e1e1c1000000c1d8bce2c144258dc000000000efe27fbf0cf5f3bc0000000000000080d8e1e1c1000000c1d897e3c13c5452bfd897e3c13c5452bf00000000efe27fbf0bf5f3bc0000000000000080d897e3c13c5452bfd897e3c13c5452bf00c6a43e45bb8bc0000000006d007f3f14b1b4bd000000800000008000c6243f4bb43bbf00000000000000c100000000000000c10000000000000080000080bf000000000000008000000000000000c100000000000000c100c6243f4bb43bbf000000006d007f3f13b1b4bd000000800000008000c6243f4bb43bbf00c6243f4bb43bbfa8715ec1440447bf00000000981547bbb3ff7f3f0000008000000080d897e3c13c5452bf00c6243f4bb43bbfd897e3c13c5452bf00000000861547bbb3ff7f3f0000008000000080d897e3c13c5452bfd897e3c13c5452bfd8e161c1000000c10000000000000080000080bf000000000000008000000000000000c1d8e1e1c1000000c1d8e1e1c1000000c100000000efe27fbf0cf5f3bc0000000000000080d8e1e1c1000000c1d8e1e1c1000000c1d8bce2c144258dc000000000efe27fbf0bf5f3bc0000000000000080d8e1e1c1000000c1d897e3c13c5452bf
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -13.902748, y: -4.36661, z: 0}
+    m_Extent: {x: 14.546394, y: 3.6333902, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &545744141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2403,10 +2354,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (56)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2739,8 +2686,8 @@ MonoBehaviour:
   - {x: 0.64364624, y: -0.7332198, z: 0}
   - {x: 0, y: -8, z: 0}
   m_ShapePathHash: -1123065759
-  m_Mesh: {fileID: 945596046}
-  m_InstanceId: 29118
+  m_Mesh: {fileID: 537654113}
+  m_InstanceId: 48428
   m_LocalBounds:
     m_Center: {x: -13.902748, y: -4.3666096, z: 0}
     m_Extent: {x: 14.546394, y: 3.6333902, z: 0}
@@ -98827,10 +98774,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (64)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 124.29975
@@ -98892,10 +98835,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -98997,10 +98936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (41)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.32025
@@ -99097,10 +99032,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (46)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.390251
@@ -99158,10 +99089,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.93
@@ -99218,10 +99145,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (40)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -99325,171 +99248,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
---- !u!43 &945596046
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 42
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: -13.902748, y: -4.36661, z: 0}
-      m_Extent: {x: 14.546394, y: 3.6333902, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 00000100020000000300010004000300000005000300040006000300050003000600070002000800000000000900040001000a00020003000b00010007000c00030004000d00050005000e00060006000f000700
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 704
-    _typelessdata: 00000000000000c1000000006d007f3f14b1b4bd000000800000008000000000000000c100000000000000c100c6243f4bb43bbf00000000981547bbb3ff7f3f000000800000008000c6243f4bb43bbf00c6243f4bb43bbf00c6a43e45bb8bc0000000006d007f3f13b1b4bd000000800000008000c6243f4bb43bbf00000000000000c1a8715ec1440447bf00000000861547bbb3ff7f3f0000008000000080d897e3c13c5452bf00c6243f4bb43bbfd8e161c1000000c10000000000000080000080bf000000000000008000000000000000c1d8e1e1c1000000c1d8e1e1c1000000c10000000000000080000080bf0000000000000080d8e1e1c1000000c1d8e1e1c1000000c1d8bce2c144258dc000000000efe27fbf0cf5f3bc0000000000000080d8e1e1c1000000c1d897e3c13c5452bfd897e3c13c5452bf00000000efe27fbf0bf5f3bc0000000000000080d897e3c13c5452bfd897e3c13c5452bf00c6a43e45bb8bc0000000006d007f3f14b1b4bd000000800000008000c6243f4bb43bbf00000000000000c100000000000000c10000000000000080000080bf000000000000008000000000000000c100000000000000c100c6243f4bb43bbf000000006d007f3f13b1b4bd000000800000008000c6243f4bb43bbf00c6243f4bb43bbfa8715ec1440447bf00000000981547bbb3ff7f3f0000008000000080d897e3c13c5452bf00c6243f4bb43bbfd897e3c13c5452bf00000000861547bbb3ff7f3f0000008000000080d897e3c13c5452bfd897e3c13c5452bfd8e161c1000000c10000000000000080000080bf000000000000008000000000000000c1d8e1e1c1000000c1d8e1e1c1000000c100000000efe27fbf0cf5f3bc0000000000000080d8e1e1c1000000c1d8e1e1c1000000c1d8bce2c144258dc000000000efe27fbf0bf5f3bc0000000000000080d8e1e1c1000000c1d897e3c13c5452bf
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -13.902748, y: -4.36661, z: 0}
-    m_Extent: {x: 14.546394, y: 3.6333902, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &972435019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
@@ -99520,7 +99278,7 @@ Transform:
   m_GameObject: {fileID: 1002277815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.01, y: -2.84, z: 0}
+  m_LocalPosition: {x: -34.84, y: -2.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -99537,10 +99295,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (58)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -99700,6 +99454,18 @@ MonoBehaviour:
           m_StringArgument: OH GOD! HELP ME! RUN, RUUUUUN
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 186325380}
+        m_TargetAssemblyTypeName: Door, Assembly-CSharp
+        m_MethodName: OpenWithsound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OH GOD! HELP ME! RUN, RUUUUUN
+          m_BoolArgument: 1
+        m_CallState: 2
   radius: 2.69
 --- !u!1001 &1034540999
 PrefabInstance:
@@ -99712,10 +99478,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (50)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -99790,10 +99552,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.14975
@@ -99855,10 +99613,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (47)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100008,10 +99762,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100268,6 +100018,171 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
   m_PrefabInstance: {fileID: 1760094586}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &1265328364
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: -14.080986, y: -5.2209496, z: 0}
+      m_Extent: {x: 14.154289, y: 3.2209496, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020000000300010004000300000005000300040006000300050003000600070002000800000000000900040001000a00020003000b00010007000c00030004000d00050005000e00060006000f000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 704
+    _typelessdata: 00000000033e04c10000000084fb7f3fbbae3fbc000000800000008000000000033e04c100000000033e04c10020963d000000c000000000000000800000803f00000080000000800020963d000000c00020963d000000c00020163d033ea4c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c000000000033e04c1b84b61c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c00020963d000000c0d8e161c104a805c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c1d8e1e1c1051207c1d8e1e1c1051207c100000000b521cd3bb7fe7fbf0000008000000080d8e1e1c1051207c1d8e1e1c1051207c1d8e1e1c10512a7c000000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1000000c0d8e1e1c1000000c000000000000080bf000000800000008000000080d8e1e1c1000000c0d8e1e1c1000000c00020163d033ea4c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c000000000033e04c100000000033e04c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c100000000033e04c10020963d000000c00000000084fb7f3fbbae3fbc00000080000000800020963d000000c00020963d000000c0b84b61c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c00020963d000000c0d8e1e1c1000000c000000000000000800000803f0000008000000080d8e1e1c1000000c0d8e1e1c1000000c0d8e161c104a805c100000000b521cd3bb7fe7fbf000000800000008000000000033e04c1d8e1e1c1051207c1d8e1e1c1051207c100000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1051207c1d8e1e1c10512a7c000000000000080bf000000800000008000000080d8e1e1c1051207c1d8e1e1c1000000c0
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -14.080986, y: -5.2209496, z: 0}
+    m_Extent: {x: 14.154289, y: 3.2209496, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1273042104
 GameObject:
   m_ObjectHideFlags: 0
@@ -100348,10 +100263,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100514,10 +100425,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.760002
@@ -100574,10 +100481,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100636,10 +100539,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (66)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.22
@@ -100696,10 +100595,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (44)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100758,10 +100653,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.89975
@@ -100818,10 +100709,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -100880,10 +100767,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (39)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.22
@@ -100940,10 +100823,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -101002,10 +100881,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (31)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.29975
@@ -101062,10 +100937,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -101129,10 +101000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.400253
@@ -101178,6 +101045,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
+--- !u!1001 &1516405564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2016657967164194511, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_Name
+      value: door
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512623482818054560, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.4108
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050567872700496199, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309278618376367709, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.576385
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -33.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09877991
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815988765279113807, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cbc391de6c1ac04c8e7720593bee657, type: 3}
 --- !u!1001 &1524186675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101189,10 +101125,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -101250,10 +101182,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (62)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -101407,10 +101335,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.67025
@@ -101519,10 +101443,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (36)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.94
@@ -101579,10 +101499,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -101735,10 +101651,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (35)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 91.69
@@ -101880,10 +101792,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.53975
@@ -101945,10 +101853,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (43)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102012,10 +101916,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (63)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 113.79025
@@ -102073,10 +101973,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.619751
@@ -102133,10 +102029,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (49)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102205,10 +102097,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.2799988
@@ -102265,10 +102153,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (37)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102338,10 +102222,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.509499
@@ -102409,10 +102289,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.430504
@@ -102469,10 +102345,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102670,10 +102542,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (38)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 95.33025
@@ -102735,10 +102603,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102975,10 +102839,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (48)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.680252
@@ -103036,10 +102896,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative torche (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.07975
@@ -103096,10 +102952,6 @@ PrefabInstance:
     - target: {fileID: 741099134170934798, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_Name
       value: decorative torche (53)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5313860856724283084, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6160477236114850181, guid: 47b4487035a03ac498c50c8d63c52407, type: 3}
       propertyPath: m_LocalPosition.x
@@ -103740,3 +103592,4 @@ SceneRoots:
   - {fileID: 1967499426}
   - {fileID: 27632393}
   - {fileID: 615920364}
+  - {fileID: 1516405564}
