@@ -19,10 +19,11 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-   
+
     public void loadScene(int sceneIndex)
     {
         StartCoroutine(loadSceneWithTransition(sceneIndex));
+        Debug.Log("Loading scene: " + sceneIndex);
     }
 
     IEnumerator loadSceneWithTransition(int sceneIndex)
@@ -32,6 +33,7 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
 
         SceneManager.LoadScene(sceneIndex);
-         
+
     }
 }
+
