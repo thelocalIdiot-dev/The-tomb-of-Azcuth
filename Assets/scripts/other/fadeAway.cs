@@ -5,18 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class fadeAway : MonoBehaviour
 {
- 
+
+    public bool GobackToMenu = false;
 
     void Start()
     {
-       
+        
     }
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneLoader.instance.loadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(GobackToMenu)
+            {
+                SceneLoader.instance.loadScene(0);
+            }
+            else
+            {
+                SceneLoader.instance.loadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 }
