@@ -8,12 +8,12 @@ public class turn : MonoBehaviour
     public Transform player;
     void Update()
     {
-        if (Input.GetKey(KeyCode.E) && Vector3.Distance(this.transform.position, player.position) < 7f)
+        if (Input.GetKey(KeyCode.E) && Vector3.Distance(this.transform.position, player.position) < 8f)
         {
             rotate(-10f); // Gira 45 grados al presionar R
         }
 
-        else if (Input.GetKey(KeyCode.Q) && Vector3.Distance(this.transform.position, player.position) < 7f)
+        else if (Input.GetKey(KeyCode.Q) && Vector3.Distance(this.transform.position, player.position) < 8f)
         {
             rotate(10f); // Gira -45 grados al presionar Q
         }

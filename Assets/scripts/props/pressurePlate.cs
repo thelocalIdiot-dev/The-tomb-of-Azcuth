@@ -46,6 +46,11 @@ public class pressurePlate : MonoBehaviour
         collision.transform.parent = transform;
         OnPress.Invoke();
     }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        _isPressed = true;
+        collision.transform.parent = transform;
+    }
     private void OnCollisionExit2D(Collision2D collision)
     {
         _isPressed = false;

@@ -20,7 +20,7 @@ public class fallingSpike : MonoBehaviour
         hit = Physics2D.Raycast(rayOrigin.position, rayOrigin.up, 100);
         if (hit.collider != null)
         {
-            Debug.Log(hit.transform.name);
+
             if (hit.collider.gameObject.CompareTag("Player"))
             {
                 Debug.Log("player");
@@ -28,7 +28,7 @@ public class fallingSpike : MonoBehaviour
                 rb.gravityScale = speed;
                 rb.freezeRotation = true;
                 rb.constraints = RigidbodyConstraints2D.FreezePositionX;
-            }          
+            }
         }
     }
 

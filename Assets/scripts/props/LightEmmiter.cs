@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class LightEmmiter : MonoBehaviour
 {
-    public Transform origin;       
-    public int maxReflections = 5; 
+    public Transform origin;
+    public int maxReflections = 5;
     public float maxDistance = 100f;
 
     private LineRenderer lineRenderer;
@@ -53,6 +53,10 @@ public class LightEmmiter : MonoBehaviour
                     currentReceiver?.OnLight.Invoke();
                     break;
                 }
+                else if (hit.collider.CompareTag("Split"))
+                {
+
+                }
                 else
                 {
                     break;
@@ -65,11 +69,11 @@ public class LightEmmiter : MonoBehaviour
             }
         }
 
-       
+
         lineRenderer.positionCount = points.Count;
         lineRenderer.SetPositions(points.ToArray());
 
-      
+
         if (previousReceiver != null && previousReceiver != currentReceiver)
         {
             previousReceiver.OnNoLight.Invoke();
