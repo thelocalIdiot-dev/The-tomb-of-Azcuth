@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Receiver
   - Mirror
+  - Metal box
   layers:
   - Default
   - TransparentFX
