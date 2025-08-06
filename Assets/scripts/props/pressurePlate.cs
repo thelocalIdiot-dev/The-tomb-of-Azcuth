@@ -33,10 +33,11 @@ public class pressurePlate : MonoBehaviour
             transform.Translate(0f, 0.03f, 0f);
         }
 
-        if (_isPressed)
+        if (Input.GetKeyDown(KeyCode.E))
         {
             OnHeldDown.Invoke();
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
