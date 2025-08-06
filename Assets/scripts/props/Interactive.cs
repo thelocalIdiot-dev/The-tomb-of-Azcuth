@@ -21,10 +21,12 @@ public class Interactive : MonoBehaviour
         {
             interactText.SetActive(true);
             interactText.SetActive(true);
+            Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.parent.position);
+            interactText.transform.position = screenPos + new Vector3(200, -50, 0);
             if (Input.GetKeyDown(KeyCode.E))
-            {              
+            {
                 Event.Invoke();
-                
+
             }
         }
         else
