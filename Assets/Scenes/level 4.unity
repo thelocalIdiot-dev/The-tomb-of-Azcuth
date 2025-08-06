@@ -433,7 +433,10 @@ PrefabInstance:
       objectReference: {fileID: 986376277}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8097018186283331753, guid: 5729d089dd67f1449a0ae7b3db1ff247, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 632275979}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5729d089dd67f1449a0ae7b3db1ff247, type: 3}
 --- !u!1 &209625961
@@ -1580,6 +1583,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8439895922889334967, guid: dbf6bca950b226d418bf0a3c6b5c3514, type: 3}
   m_PrefabInstance: {fileID: 150439239}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &632275978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632275979}
+  - component: {fileID: 632275980}
+  m_Layer: 6
+  m_Name: Interact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632275979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632275978}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1886074650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632275980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632275978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d568ce3ffe3fe0a489a9ffbf0d25f1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactText: {fileID: 705534651}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  radius: 8
 --- !u!1 &645222382
 GameObject:
   m_ObjectHideFlags: 0
@@ -32566,7 +32618,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 986376277}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4059028446173955282, guid: 5729d089dd67f1449a0ae7b3db1ff247, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5729d089dd67f1449a0ae7b3db1ff247, type: 3}
